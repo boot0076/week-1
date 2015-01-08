@@ -24,10 +24,6 @@ body{
 	background-size: cover;
 }
 
-em{
-	font-style: italic;
-}
-
 .border{
     display: block;
     width: 60px;
@@ -58,7 +54,7 @@ h1{
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	letter-spacing: 7px;
 	margin-bottom: 0;
 	margin-top: 7rem;
@@ -69,7 +65,7 @@ h2{
 	letter-spacing: 1px;
 	color: #fff;
 	text-align: center;
-	font-size: .9rem;
+	font-size: .8rem;
 	padding-bottom: 5px;
 }
 
@@ -124,10 +120,11 @@ li i:hover{
 	padding: 1.5rem;
 }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 40em) {
 
 h1{
-	font-size: 2.2rem;
+	font-size: 1.7rem;
+	letter-spacing: 9px;
 }
 
 .icon-section{
@@ -135,8 +132,21 @@ h1{
 }
 
 .about{
+	padding: -1rem;
 	width: 50%;
 	float: left;
+}
+}
+
+
+@media only screen and (min-width: 60em) {
+
+.about{
+	width: 40%;
+}
+
+ul{
+	margin-left: 15%;
 }
 }
 
@@ -144,6 +154,10 @@ h1{
 .about{
 	width: 25%;
 	float: left;
+}
+
+ul{
+	margin: 0;
 }
 }
 
@@ -176,5 +190,4 @@ h1{
 .hvr-icon-grow-rotate:active:before{
 	-webkit-transform: translateY(-10px) scale(1.5) rotate(12deg);
 	transform: translateY(-10px) scale(1.2) rotate(15deg);
-
 }
